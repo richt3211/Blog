@@ -21,4 +21,13 @@ I am mostly happy with this diet. I do have a sweet tooth so if I am ever offere
 The biggest thing that bothers me about my current diet is that I have no way of knowing if I am actually sticking to the set of rules that I have built for myself inside of my head. The main goal of this post is to write all of the rules down and explore ways of measuring what I am actually doing so that I can know where I need to improve (if at all). If possible I would like to roughly measure everything that I eat (exluding weekends) and exactly when it is that I am eating. I mentioned a 20:4 intermittent fasting window that I have been working towards. My goal is to hit this exactly and consistently eating the foods that I mentioned above. 
 
 ### Tracking Fasting Window
-When I did my 3 day fast I used a fasting tracker phone app for the first time. The application named [Zero](https://apps.apple.com/us/app/zero-fasting-tracker/id1168348542) allows the user to specify a fasting period and provides a simple graphic that shows the current progress. ![Screenshot of fasting app](static/fasting.png)
+When I did my 3 day fast I used a fasting tracker phone app for the first time. The application named [Zero](https://apps.apple.com/us/app/zero-fasting-tracker/id1168348542) allows the user to specify a fasting period and provides a simple graphic that shows the current progress. ![Screenshot of fasting app](../fasting.png). I'll start using this app every day that I fast and shoot for a 20:4 window starting around 4-5PM. This should help discipline my eating window and if I deviate outside of it I'll have the data that tells me so. 
+
+### Tracking diet
+I have tried to track my diet in the past and had some success. The app that I used was MyFitnessPal which still seems to be the most popular diet tracking application. I'm going to start out by simply logging everything that I eat using the app with no specific goal in mind other than just to know what I'm eating. This can be cumbersome and hard to remember to do but if I use it in tandem with the fasting application it might make it easier. 
+
+### Tracking Weight
+I haven't cared much about my weight in the last few years but I'd like to start measuring it. I need to buy a scale so that I can measure at home. The MyFitnessPal app allows you to track your weight so when I do get a scale I'll start adding the information there. Again, I don't have any specific goal, just want to start tracking it. 
+
+Using these mechanisms I hope to gain as much relevant data as I can that I can then use to analyze my habits. If I like where I'm at I won't change anything
+
