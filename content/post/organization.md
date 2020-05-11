@@ -1,0 +1,29 @@
+---
+title: "Blog Organization"
+date: 2020-05-05
+tags: []
+draft: false
+---
+
+I am getting to the point that I need to put some more serious thought into how I want to organize the blog. I have another week until the summer semester starts (which is when I will start meeting with my research advisor), and before then I would like to organize all of my thoughts surrounding my research project together before our first meeting. I am also getting to the point where posts outside of my research writing are getting hard to handle, so all of this warrants some more organizations.  
+
+## Public or Private?
+I still have yet to decide if I am going to publish the blog to a public audience. If I do, that means that I'll need to polish the whole site and get it ready for eyes that are not my own. I think that doing this is going to affect the organization of the blog in a major way. I can polish the blog and write as if I was going to publish to an audience and not actually do it if I'm not ready to put my content out to the public. The alternative is to keep writing the way that I have been and just keep the organization to myself without fear of anyone else seeing it. There are pros and cons to both situations, and I think the right thing to do is a mixture of both.  
+
+Hugo has an option to keep a post as a draft or to publish it, and so I think that I can take advantage of that to keep the majority of my content and random thoughts to myself while publishing some of the deeper and more refined content with an audience in mind. I would say that most of the content I have put on the blog so far is not worthy of publishing but provides a decent basis to get started. As of now, my plan will be to publish the blog when I feel that I have a decent amount of content to start, while keeping my day to day thoughts private. I hope that hugo has a way of letting me actually see the hidden posts on the blog when I host it locally, but only show what I want for the public in the production setting. This is still something that I need to navigate and figure out. 
+
+## Categories of content
+This is the most important thing that I need to settle and determine how I am going to organize these categories on the actual layout of the blog. I'll start by listing some potential categories that I think might be useful as a brainstorm, and then select the ones that I actually want to use later. 
+
+1. Research: This is the most obvious and important 
+2. Health: Diet and Exercise
+3. Music: This will include both me learning theory and actual instruments. I would like to start recording myself and posting videos to youtube, so this can also serve as a good place to document some of the progress. 
+4. Philosophy/spirituality: I haven't written much about this yet but this could potentially be the most impactful part of the blog. There are quite a few philosophical ideas that I still struggle with, and also some fantastic writers and thinkers that address them. I think this is the write place to start having those own discussions with myself. 
+5. Reading: This is related to number 4, but not as constrained. I'm hoping to do more reading and less social media, so this might just serve as a place for me track some of the progress. I think a good place to start would be keeping track of how many books I read. If I want to write thoughts about the books that would be ideal, but I probably don't have time to do it extensively. 
+6. Computer Science and Programming: There are quite a few different ideas that I have had in regards to projects that I can take up and different technologies I want to learn. I think that it would beneficial to have a place that I can use as a way to track some of the progress and potentially show it to others. At the very least it could serve as a good way to keep a list of resources if I need them in the future. 
+7. Finance: I feel as though personal finance is one of the things that I struggle with the most not only in my personal life but also in my relationship with my wife and family. As we are getting more experience we are getting better at managing our money, but I still don't feel that I have near the control that I want to have. The more that I can read, write, and think about how I want to manage my money in a way that not only works for me but also my wife, the better. I've already built a simple tool that has helped both me and Vivian tremendously in keeping up to date with our financial status, but there are several things that I can think of adding that would be helpful. I would like to automate the process of managing my money as much as possible. If this blog can help me do it, that would be awesome. 
+8. Other projects and misc ideas: I've lately been getting into gardening, yard work, and some DIY projects. It would be fun to document them and share them. 
+
+I am sure that there are going to be other 'categories' that I can think of in the future, but this a good place to start with. One thing that I didn't mention in the categories is just random spilling of my thoughts that doesn't necessarily have to do with anything that I just mentioned above. What may be the right thing to do is to have the categories as the public facing posts, whereas my 'journal' is private. On the actual blog I could have a separate 'category' called journaling, and just hide it from the pbulic. Then I could pull content from this journal to add to the categories and public facing posts when I feel like it. I think that this is a good way to get started.  
+
+For now I am going to actually build some of these categories into the blog. I'll start with 1, 2, 3, and 5, as I have already written about subjects related to these categories in the past. I think I have a good sense of where I can get started. The next step is to build this structure into the blog. 

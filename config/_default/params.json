@@ -1,0 +1,18 @@
+{
+    "author": "Richard Timpson",
+    "description": "Personal blog theme powered by Hugo",
+    "githubUsername": "richt3211",
+    "accent": "red",
+    "showBorder": true,
+    "backgroundColor": "white",
+    "font": "Raleway",
+    "highlight": true,
+    "highlightStyle": "default",
+    "highlightLanguages": [
+        "go",
+        "haskell",
+        "kotlin",
+        "scala",
+        "swift"
+    ]
+}

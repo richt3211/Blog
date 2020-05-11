@@ -1,0 +1,61 @@
+{
+    "main": [
+        {
+            "url": "/",
+            "name": "Home",
+            "weight": 1
+        },
+        {
+            "url": "/post",
+            "name": "Posts",
+            "weight": 2
+        },
+        {
+            "url": "/research",
+            "name": "Research",
+            "weight": 3
+        },
+        {
+            "url": "/health",
+            "name": "Health",
+            "weight": 4
+        },
+        {
+            "url": "/music",
+            "name": "Music",
+            "weight": 5
+        },
+        {
+            "url": "/journal",
+            "name": "Journal",
+            "weight": 6
+        }
+    ],
+    "icon": [
+        {
+            "url": "mailto:me@example.com",
+            "name": "envelope-o",
+            "weight": 1
+        },
+        {
+            "url": "https://github.com/username/",
+            "name": "github",
+            "weight": 2
+        },
+        {
+            "url": "https://twitter.com/username/",
+            "name": "twitter",
+            "weight": 3
+        },
+        {
+            "url": "https://www.linkedin.com/in/username/",
+            "name": "linkedin",
+            "weight": 4
+        },
+        {
+            "url": "https://www.stackoverflow.com/username/",
+            "name": "stack-overflow",
+            "weight": 5
+        }
+    ]
+}
