@@ -2,7 +2,7 @@
 title: "Blog Ideas"
 date: 2020-05-11
 tags: []
-draft: true
+draft: false
 ---
 
 This is going to act as a central place for blog post ideas. Hopefully as I add to this list I can start knocking off some of the posts. I'm going to add the idea for the blog post as well as what category it is going to belong to. 
