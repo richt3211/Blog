@@ -6,7 +6,7 @@ draft: false
 
 This page is going to act as a central place for me to keep track of all the useful resources that I come across during my research. Right now I have several papers and books saved on my laptop, but it is becoming difficult to keep them organized. I am going to organize all of the references by category with links to the relevant paper, book, or article. 
 
-## Books
+# Books
 * **Deep learning techniques for music generation--a survey** 
     * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Deep+Learning+Techniques+for+Music+Generation+%E2%80%93+A+Survey&btnG=)
     * [Content Link](https://arxiv.org/pdf/1709.01620.pdf)
@@ -18,8 +18,8 @@ This page is going to act as a central place for me to keep track of all the use
     * Quick Notes: The famous book by goodfellow. It is dense enough that I haven't read that much of it, but think that it would be useful to look at the section on RNNs and LSTMs
     * Citation: Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep learning. MIT press.
 
-## Papers
-### AI Tutor
+# Papers
+## AI Tutor
 * **Toward a High Performance Piano Practice Support System for Beginners**
     * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Toward+a+High+Performance+Piano+Practice+Support+System+for+Beginners&btnG=)
     * [Content Link](http://www.apsipa.org/proceedings/2018/pdfs/0000073.pdf)
@@ -41,7 +41,8 @@ This page is going to act as a central place for me to keep track of all the use
     * Quick Notes: An older paper (1992) about score following. Not sure what the computational techniques that they use are
     * Citation: Puckette, M., & Lippe, C. (1992). Score following in practice. In Proceedings of the International Computer Music Conference (pp. 182-182). INTERNATIONAL COMPUTER MUSIC ACCOCIATION.
 
-### Music Analysis and Expresiveness
+## Music Analysis and Expresiveness
+### General
 * **E-LEARNING SOFTWARE FOR IMPROVING STUDENT'S MUSIC PERFORMANCE USING COMPARISONS**
     * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=E-LEARNING+SOFTWARE+FOR+IMPROVING+STUDENT%27S+MUSIC+PERFORMANCE+USING+COMPARISONS&btnG=)
     * [Content Link](https://files.eric.ed.gov/fulltext/ED562302.pdf
@@ -72,14 +73,80 @@ This page is going to act as a central place for me to keep track of all the use
     * Quick Notes: This is a popular paper by Friberg that discusses his KTH system for analyzing music expresiveness that he has been developing since the 80's. This doesn't use any sort of data driven approach but uses a set of hardcoded rules that are fine tuned by human feedback to define what expresiveness is. 
     * Citation: Friberg, A., Bresin, R., & Sundberg, J. (2006). Overview of the KTH rule system for musical performance. Advances in cognitive psychology, 2(2-3), 145-161.
 
-### Music Generation
+### Transformer
+* **A BI-DIRECTIONAL TRANSFORMER FOR MUSICAL CHORD RECOGNITION** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=A+BI-DIRECTIONAL+TRANSFORMER+FOR+MUSICAL+CHORD+RECOGNITION&btnG=)
+    * [Content Link](https://arxiv.org/pdf/1907.02698.pdf)
+    * Review Link: TODO
+    * Quick Notes: Uses the self-attention technique for chord recognition and provides an accompanying visualization
+
+## Music Generation
+### General
+* **Deep Learning for Music Generation - Challenges and Directions** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?q=Deep+learning+for+music+generation:+challenges+and+directions&hl=en&as_sdt=0&as_vis=1&oi=scholart)
+    * [Content Link](http://www-desir.lip6.fr/~briot/cv/mg-dl-cd-final.pdf)
+    * [Review Link]({{<ref "research/reviews/deep-learning-for-music-generation-challenges-and-directions.md">}})
+    * Quick Notes: A survey of the current trends in music generation and suggestions of future work
+
+### Transformer
+* **Music Transformer: Generating music with long-term structure** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Music+transformer%3A+Generating+music+with+long-term+structure&btnG=)
+    * [Content Link](https://openreview.net/pdf?id=rJe4ShAcF7)
+    * [Website Link](https://magenta.tensorflow.org/music-transformer)
+    * Review Link: TODO
+    * Quick Notes: Magenta's(Google) take on using transformers to model long term relationships in music
+
+* **Music Style Transformer** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Music+Style+Transformer&btnG=)
+    * [Content Link](https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/ICA7029.pdf)
+    * Review Link: TODO
+    * Quick Notes: Applying Magenta's research with a Style Transfer approach
+
+* **Encoding Musical Style with Transformer Autoencoders** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Encoding+Musical+Style+with+Transformer+Autoencoders&btnG=)
+    * [Content Link](https://arxiv.org/pdf/1912.05537.pdf)
+    * [Website Link](https://magenta.tensorflow.org/transformer-autoencoder)
+    * Review Link: TODO
+    * Quick Notes: Magenta research group using an autoencoder on top of the music transformer architecture
+
+* **Transformer VAE: A Hierarchical Model for Structure-Aware and Interpretable Music Representation Learning** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Transformer+VAE%3A+A+Hierarchical+Model+for+Structure-Aware+and+Interpretable+Music+Representation+Learning&btnG=)
+    * [Content Link](https://ieeexplore-ieee-org.ezproxy.lib.utah.edu/stamp/stamp.jsp?tp=&arnumber=9054554)
+    * Review Link: TODO
+    * Quick Notes: Another variational auto-encoder with the goal to make create more structure awareness and interpretability in the model.
+
+* **LakhNES: Improving multi-instrumental music generation with cross-domain pre-training** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=LakhNES%3A+Improving+multi-instrumental+music+generation+with+cross-domain+pre-training&btnG=)
+    * [Content Link]https://arxiv.org/pdf/1907.04868.pdf()
+    * Review Link: TODO
+    * Quick Notes: Using the transformer architecture for polyphonic music generation using new data from NES video games system. 
+
+* **Transformer Bard: Music and Poem Generation Using Transformer Models** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Transformer+Bard%3A+Music+and+Poem+Generation+Using+Transformer+Models&btnG=)
+    * [Content Link](https://creativecoding.soe.ucsc.edu/courses/cmpm202_w20/_schedule/TransformerBard_202.pdf)
+    * Review Link: TODO
+    * Quick Notes: Uses the GPT-2 Model for text generation and the Self-Attention Transformer model for music generation
+
+* **Vector Quantized Contrastive Predictive Coding for Template-based Music Generation** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Vector+Quantized+Contrastive+Predictive+Coding+for+Template-based+Music+Generation&btnG=)
+    * [Content Link](https://arxiv.org/pdf/2004.10120.pdf)
+    * Review Link: TODO
+    * Quick Notes: Not entirely sure what they do in the paper, need to read further. 
+
+* **Infilling Piano Performances** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Infilling+Piano+Performances&btnG=)
+    * [Content Link](https://nips2018creativity.github.io/doc/infilling_piano_performances.pdf)
+    * Review Link: TODO
+    * Quick Notes: Magenta group using self-attention methods to 'fill in' pieces of missing music. Useful for computer-assisted composition with HCI
+
+### Recurrent
 * **This time with feeling: learning expressive musical performance**
     * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=This+time+with+feeling%3A+learning+expressive+musical+performance&btnG=)
     * [Content Link](https://link.springer.com/article/10.1007/s00521-018-3758-9)
     * Quick Notes: This is a paper that focuses on generating expressive performance using an LSTM network architecture. Haven't read the paper. 
     * Citation: Oore, S., Simon, I., Dieleman, S., Eck, D., & Simonyan, K. (2018). This time with feeling: Learning expressive musical performance. Neural Computing and Applications, 1-13.
 
-### Music Information Retrieval
+## Music Information Retrieval
 * **Getting Closer to the Essence of Music:The Con Espressione Manifesto**
     * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Getting+Closer+to+the+Essence+of+Music%3AThe+Con+Espressione+Manifesto&btnG=)
     * [Content Link](https://arxiv.org/pdf/1611.09733.pdf)
@@ -92,8 +159,8 @@ This page is going to act as a central place for me to keep track of all the use
     * Citation: Fiebrink, R., & Cook, P. R. (2010, August). The Wekinator: a system for real-time, interactive machine learning in music. In Proceedings of The Eleventh International Society for Music Information Retrieval Conference (ISMIR 2010)(Utrecht).
 
 <!-- Template -->
-<!-- * **Score-Following-in-Practice** 
+<!-- * **Title** 
     * [Google Scholar Link]()
     * [Content Link]()
-    * Quick Notes:
-    * Citation:  -->
+    * Review Link: TODO
+    * Quick Notes: -->
