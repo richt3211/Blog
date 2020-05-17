@@ -88,18 +88,28 @@ This page is going to act as a central place for me to keep track of all the use
     * [Review Link]({{<ref "research/reviews/deep-learning-for-music-generation-challenges-and-directions.md">}})
     * Quick Notes: A survey of the current trends in music generation and suggestions of future work
 
+* **Enabling Factorized Piano Music Modeling and Generation with the MAESTRO Dataset**
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Enabling+Factorized+Piano+Music+Modeling+and+Generation+with+the+MAESTRO+Dataset&btnG=)
+    * [Content Link](https://arxiv.org/pdf/1810.12247.pdf)
+    * [Website Link](https://magenta.tensorflow.org/maestro-wave2midi2wave)
+    * [Review Link]({{<ref "research/reviews/enabling-factorized-piano-music-modeling-and-generation-with-the-maestro-dataset.md.md">}})
+    * Quick Notes: A full audio transcription and generation process proposed by Magenta. They break the problem of generating music audio into 3 parts. 
+        * 1st. Audio transcription: Going from Audio to Midi
+        * 2nd. Generating new Midi using a Music Transformer
+        * 3rd. Generating new audio with the MIDI using the WaveNet architecture. 
+
 ### Transformer
 * **Music Transformer: Generating music with long-term structure** 
     * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Music+transformer%3A+Generating+music+with+long-term+structure&btnG=)
     * [Content Link](https://openreview.net/pdf?id=rJe4ShAcF7)
     * [Website Link](https://magenta.tensorflow.org/music-transformer)
-    * Review Link: TODO
+    * [Review Link]({{<ref "/research/reviews/music-transformer-generating-music-with-long-term-structure.md">}})
     * Quick Notes: Magenta's(Google) take on using transformers to model long term relationships in music
 
 * **Music Style Transformer** 
     * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Music+Style+Transformer&btnG=)
     * [Content Link](https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/ICA7029.pdf)
-    * Review Link: TODO
+    * [Review Link]({{<ref "/research/reviews/music-style-transformer.md">}})
     * Quick Notes: Applying Magenta's research with a Style Transfer approach
 
 * **Encoding Musical Style with Transformer Autoencoders** 
@@ -157,6 +167,28 @@ This page is going to act as a central place for me to keep track of all the use
     * [Content Link](https://www.researchgate.net/profile/Perry_Cook3/publication/228719072_The_Wekinator_A_System_for_Real-time_Interactive_Machine_Learning_in_Music/links/00b4953b6fd9d98644000000.pdf)
     * Quick Notes: This is a general system for live MIR statistics on musical performance. I'm not sure if it has been used for any specific application. 
     * Citation: Fiebrink, R., & Cook, P. R. (2010, August). The Wekinator: a system for real-time, interactive machine learning in music. In Proceedings of The Eleventh International Society for Music Information Retrieval Conference (ISMIR 2010)(Utrecht).
+
+## Music Synthesis/Transcription
+* **Onsets and frames: Dual-objective piano transcription** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Onsets+and+Frames%3A+Dual-Objective+Piano+Transcription&btnG=)
+    * [Content Link](https://arxiv.org/pdf/1710.11153.pdf)
+    * [Website Link](https://magenta.tensorflow.org/onsets-frames)
+    * [Review Link]({{<ref "/research/reviews/onsets-and-frames-dual-objective-piano-transcription.md">}})
+    * Quick Notes: Use a convolutional and recurrent neural network to create MIDI files from raw audio wav files. Done by Magenta research group
+
+* **Wavenet: A generative model for raw audio** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&as_vis=1&q=Wavenet%3A+A+generative+model+for+raw+audio&btnG=)
+    * [Content Link](https://arxiv.org/pdf/1609.03499.pdf?utm_source=Sailthru&utm_medium=email&utm_campaign=Uncubed%20Entry%20%2361%20-%20April%203%2C%202019&utm_term=entry)
+    * [Website Link](https://deepmind.com/blog/article/wavenet-generative-model-raw-audio)
+    * Review Link: TODO
+    * Quick Notes: An architecture by DeepMind for generating raw wav audio. 
+
+## Other
+* **Attention Is All You Need** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=attention+is+all+you+need&btnG=&oq=attent)
+    * [Content Link](https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf)
+    * Review Link: TODO
+    * Quick Notes: The paper that introduced self-attention and the transformer architecture. 
 
 <!-- Template -->
 <!-- * **Title** 
