@@ -17,3 +17,7 @@ This is going to act as a central place for blog post ideas. Hopefully as I add 
 * Music 
     * Goals, routine, and structure for piano/guitar. 
 
+* Philosphy, Religion, Spirtuality 
+    * Pros/Cons of Mormonism? How much do I believe in Mormonism?
+    * Emerson: His essays, philosophy, and how it applies to me. 
+

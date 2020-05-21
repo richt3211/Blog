@@ -43,6 +43,11 @@ This page is going to act as a central place for me to keep track of all the use
 
 ## Music Analysis and Expresiveness
 ### General
+* **Computational Models of Expressive Music Performance: A Comprehensive and Critical Review** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Computational+Models+of+Expressive+Music+Performance%3A+A+Comprehensive+and+Critical+Review&btnG=)
+    * [Content Link](https://www.frontiersin.org/articles/10.3389/fdigh.2018.00025/full)
+    * Review Link: TODO
+    * Quick Notes: A comprehensive review of music analysis and expressive performance. 
 * **E-LEARNING SOFTWARE FOR IMPROVING STUDENT'S MUSIC PERFORMANCE USING COMPARISONS**
     * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=E-LEARNING+SOFTWARE+FOR+IMPROVING+STUDENT%27S+MUSIC+PERFORMANCE+USING+COMPARISONS&btnG=)
     * [Content Link](https://files.eric.ed.gov/fulltext/ED562302.pdf
