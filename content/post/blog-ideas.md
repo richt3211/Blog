@@ -21,3 +21,6 @@ This is going to act as a central place for blog post ideas. Hopefully as I add 
     * Pros/Cons of Mormonism? How much do I believe in Mormonism?
     * Emerson: His essays, philosophy, and how it applies to me. 
 
+* Blog 
+    * Tools and products to use to increase my accountability for my different habits and ventures. 
+
