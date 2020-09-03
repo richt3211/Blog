@@ -2,9 +2,11 @@
 title: "Resources"
 date: 2020-05-05T17:43:09-06:00
 draft: false
+type: reference
 ---
 
 This page is going to act as a central place for me to keep track of all the useful resources that I come across during my research. Right now I have several papers and books saved on my laptop, but it is becoming difficult to keep them organized. I am going to organize all of the references by category with links to the relevant paper, book, or article. 
+
 
 # Books
 * **Deep learning techniques for music generation--a survey** 
@@ -18,6 +20,16 @@ This page is going to act as a central place for me to keep track of all the use
     * Quick Notes: The famous book by goodfellow. It is dense enough that I haven't read that much of it, but think that it would be useful to look at the section on RNNs and LSTMs
     * Citation: Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep learning. MIT press.
 
+<!-- {
+    "title": "",
+    "google_scholar_link": "",
+    "content_link": "",
+    "quick_notes": "",
+    "citation": "",
+    "review_link": "",
+    "website_link": ""
+
+} -->
 # Papers
 ## AI Tutor
 * **Toward a High Performance Piano Practice Support System for Beginners**
@@ -48,9 +60,39 @@ This page is going to act as a central place for me to keep track of all the use
     * [Content Link](https://www.frontiersin.org/articles/10.3389/fdigh.2018.00025/full)
     * Review Link: TODO
     * Quick Notes: A comprehensive review of music analysis and expressive performance. 
+* **A Hierarchical RNN-based System for Modeling Expressive Piano Performances** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?q=A+Hierarchical+RNN-based+System+for+Modeling+Expressive+Piano+Performances&hl=en&as_sdt=0&as_vis=1&oi=scholart)
+    * [Content Link](http://archives.ismir.net/ismir2019/paper/000112.pdf)
+    * Review Link: TODO
+    * Quick Notes: Uses a hierarchical RNN to build an expressive piano player. Will be the basis for most of the thesis. This is a very similar paper to the one below, but gives more of a broad overview of the entire system as opposed to specific details about the network architecture and feature represetation
+* **VirtuosoNet: A Hierarchical Attention RNN for Generating Expressive Piano Performance from Music Score** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=VirtuosoNet%3A+A+Hierarchical+Attention+RNN+for+Generating+Expressive+Piano+Performance+from+Music+Score&btnG=)
+    * [Content Link](https://nips2018creativity.github.io/doc/virtuosonet.pdf)
+    * Review Link: TODO
+    * Quick Notes: This is a related paper to the one above, but provides more specific details about the HAN and the feature representation
+* **An Assessment of Learned Score Features for Modeling Expressive Dynamics in Music** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=An+Assessment+of+Learned+Score+Features+for+Modeling+Expressive+Dynamics+in+Music&btnG=)
+    * [Content Link](https://ieeexplore-ieee-org.ezproxy.lib.utah.edu/stamp/stamp.jsp?tp=&arnumber=6762927)
+    * [Review Link]({{<ref "research/reviews/an-assessment-of-learned-score-features-for-modeling-expressive-dynamics-in-music.md">}})
+    * Quick Notes: Paper about using unsupervised learning to learn score features. 
+* **Linear basis models for prediction and analysis of musical expression** 
+    * [Google Scholar Link](https://scholar.google.com/scholar_lookup?author=M.+Grachten&author=G.+Widmer+&publication_year=2012&title=Linear+basis+models+for+prediction+and+analysis+of+musical+expression&journal=J.+New+Music+Res.&volume=41&pages=311-322)
+    * [Content Link](http://www.cp.jku.at/research/papers/Grachten_Widmer-JNMR-LBM-preprint.pdf)
+    * Review Link: TODO
+    * Quick Notes: Introduction to the linear basis model using simple linear regression. 
+* **The Basis Mixer: A Computation Romantic Pianist** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=The+basis+mixer%3A+a+computational+romantic+pianist&btnG=)
+    * [Content Link](https://s18798.pcdn.co/ismir2016/wp-content/uploads/sites/2294/2016/08/cancino-basis.pdf)
+    * Review Link: TODO
+    * Quick Notes: An extension of the basis model using an RNN. 
+* **YQX Plays Chopin** 
+    * [Google Scholar Link](https://scholar.google.com/scholar_lookup?author=G.+Widmer&author=S.+Flossmann&author=M.+Grachten+&publication_year=2009&title=YQX+plays+chopin&journal=AI+Mag.&volume=30&pages=35-48)
+    * [Content Link](https://www.aaai.org/ojs/index.php/aimagazine/article/view/2249/2099)
+    * Review Link: TODO
+    * Quick Notes: The YQX expressive performance rendering system, which was one piano competitions for expressive performance in 2008. The system uses a Bayesian probability network. 
 * **E-LEARNING SOFTWARE FOR IMPROVING STUDENT'S MUSIC PERFORMANCE USING COMPARISONS**
     * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=E-LEARNING+SOFTWARE+FOR+IMPROVING+STUDENT%27S+MUSIC+PERFORMANCE+USING+COMPARISONS&btnG=)
-    * [Content Link](https://files.eric.ed.gov/fulltext/ED562302.pdf
+    * [Content Link](https://files.eric.ed.gov/fulltext/ED562302.pdf)
     * Quick Notes: This approach analyzes expresiveness by comparing a student piece to a professional. I have read into the paper too much but it is definitely worth looking into. I would probably try to do something similar for my application
 * **Expressive Collaborative Music Performance via Machine Learning** 
     * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Expressive+Collaborative+Music+Performance+via+Machine+Learning&btnG=)
@@ -67,6 +109,11 @@ This page is going to act as a central place for me to keep track of all the use
     * [Content Link](https://www.cs.ucf.edu/~dcm/Teaching/COT4810-Spring2011/Literature/ComputerSystemsForMusic.pdf)
     * Quick Notes: This is an older paper and forms much of the basis for expressive music performance analysis from a computational perspective. 
     * Citation: Alexis Kirke and Eduardo Reck Miranda. 2009. A survey of computer systems for expressive music performance. ACM Comput. Surv. 42, 1, Article 3 (December 2009), 41 pages. DOI:https://doi.org/10.1145/1592451.1592454
+* **Modeling the Rational Basis of Musical Expression** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Modeling+the+Rational+Basis+of+Musical+Expression&btnG=)
+    * [Content Link](https://www-jstor-org.ezproxy.lib.utah.edu/stable/pdf/3680601.pdf?ab_segments=0%2Fbasic_SYC-5187%2Fcontrol&refreqid=search%3A6b2d90946ee5b224cb0eb07d430fe170)
+    * Review Link: TODO
+    * Quick Notes: An early paper by widmer that describes a detailed model for his individual note level expressiveness model
 * **On the Potential of Machine Learning for Music Research** 
     * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=On+the+Potential+of+Machine+Learning+for+Music+Research&btnG=)
     * [Content Link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.45.874&rep=rep1&type=pdf)
@@ -162,6 +209,11 @@ This page is going to act as a central place for me to keep track of all the use
     * Citation: Oore, S., Simon, I., Dieleman, S., Eck, D., & Simonyan, K. (2018). This time with feeling: Learning expressive musical performance. Neural Computing and Applications, 1-13.
 
 ## Music Information Retrieval
+* **Music Information Retrieval** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?q=music+information+retrieval&hl=en&as_sdt=0&as_vis=1&oi=scholart)
+    * [Content Link](http://www.music.mcgill.ca/~ich/classes/mumt611_06/downie_mir_arist37.pdf)
+    * Review Link: TODO
+    * Quick Notes: A general introduction and overview of MIR
 * **Getting Closer to the Essence of Music:The Con Espressione Manifesto**
     * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Getting+Closer+to+the+Essence+of+Music%3AThe+Con+Espressione+Manifesto&btnG=)
     * [Content Link](https://arxiv.org/pdf/1611.09733.pdf)
@@ -172,6 +224,12 @@ This page is going to act as a central place for me to keep track of all the use
     * [Content Link](https://www.researchgate.net/profile/Perry_Cook3/publication/228719072_The_Wekinator_A_System_for_Real-time_Interactive_Machine_Learning_in_Music/links/00b4953b6fd9d98644000000.pdf)
     * Quick Notes: This is a general system for live MIR statistics on musical performance. I'm not sure if it has been used for any specific application. 
     * Citation: Fiebrink, R., & Cook, P. R. (2010, August). The Wekinator: a system for real-time, interactive machine learning in music. In Proceedings of The Eleventh International Society for Music Information Retrieval Conference (ISMIR 2010)(Utrecht).
+* **Optical Music Recognition with convolutional sequence-to-sequence models** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=OPTICAL+MUSIC+RECOGNITION+WITH+CONVOLUTIONAL+SEQUENCE-TO-SEQUENCE+MODELS&btnG=)
+    * [Content Link](https://arxiv.org/pdf/1707.04877.pdf)
+    * Review Link: TODO
+    * Quick Notes: OMR is taking an image of a score and producing a digital representation of the score. They use a convolutional model and MusicXML (with MuseScore) to accomplish this. 
+
 
 ## Music Synthesis/Transcription
 * **Onsets and frames: Dual-objective piano transcription** 
@@ -188,12 +246,62 @@ This page is going to act as a central place for me to keep track of all the use
     * Review Link: TODO
     * Quick Notes: An architecture by DeepMind for generating raw wav audio. 
 
+## Datasets
+* **THE MAGALOFF CORPUS:AN EMPIRICAL ERROR STUDY** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=THE+MAGALOFF+CORPUS%3A+AN+EMPIRICAL+ERROR+STUDY&btnG=)
+    * [Content Link](http://depts.washington.edu/icmpc11/ICMPC11/PDF/AUTHOR/MP100017.PDF)
+    * Review Link: TODO
+    * Quick Notes:
+
+* **LEARNING FEATURES OF MUSIC FROM SCRATCH: MusicNET**
+* **Title** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=LEARNING+FEATURES+OF+MUSIC+FROM+SCRATCH&btnG=)
+    * [Content Link](https://arxiv.org/pdf/1611.09827.pdf)
+    * Review Link: TODO
+    * Quick Notes: A dataset with raw audio and corresponding labels for note timing and instruments. 
+
 ## Other
 * **Attention Is All You Need** 
     * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=attention+is+all+you+need&btnG=&oq=attent)
     * [Content Link](https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf)
     * Review Link: TODO
-    * Quick Notes: The paper that introduced self-attention and the transformer architecture. 
+    * Quick Notes: The paper that introduced the transformer architecture. 
+* **Bert: Pre-training of deep bidirectional transformers for language understanding** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Bert%3A+Pre-training+of+deep+bidirectional+transformers+for+language+understanding&btnG=)
+    * [Content Link](https://arxiv.org/pdf/1810.04805.pdf?source=post_elevate_sequence_page---------------------------)
+    * Review Link: The paper that introduces BERT
+    * Quick Notes:
+* **Language Models are Unsupervised Multitask Learners** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Language+Models+are+Unsupervised+Multitask+Learners&btnG=)
+    * [Content Link](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
+    * [Website Link](https://openai.com/blog/better-language-models/)
+    * Review Link: The original paper that introduces GPT-2
+    * Quick Notes:
+* **Neural machine translation by jointly learning to align and translate** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=NEURAL+MACHINE+TRANSLATION+BY+JOINTLY+LEARNING+TO+ALIGN+AND+TRANSLATE&btnG=)
+    * [Content Link](https://arxiv.org/pdf/1409.0473))
+    * Review Link: The paper that introduces attention as an alternative to RNNs and LSTMs implemented as encoders-decoders
+    * Quick Notes:
+* **ImageNet Classification with Deep Convolutional Neural Networks** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?q=ImageNet+Classification+with+Deep+Convolutional+Neural+Networks&hl=en&as_sdt=0&as_vis=1&oi=scholart)
+    * [Content Link](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+    * Review Link: TODO
+    * Quick Notes: This is the paper that introduces AlexNet, the CNN that won the 2012 ImageNet competition and woke the world up to deep learning. 
+* **Combining Knowledge-Based and Instance-Based Learning to Exploit Qualitative Knowledge** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?q=Combining+Knowledge-Based+and+Instance-Based+Learning+to+Exploit+Qualitative+Knowledge&hl=en&as_sdt=0&as_vis=1&oi=scholart)
+    * [Content Link](file:///Users/richardtimpson/Downloads/69-60-PB.pdf)
+    * Review Link: TODO
+    * Quick Notes: Pages 371 - 385. An early custom algorithm, named IBL-SMART, developed by Widmer in application to tonal music. Used in his single note expressiveness model
+* **Revisiting the Illiac Suite – a rule based approach to stochastic processes** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Revisiting+the+Illiac+Suite+%E2%80%93+a+rule+based+approach+to+stochastic+processes&btnG=)
+    * [Content Link](http://www.sandred.com/texts/Revisiting_the_Illiac_Suite.pdf)
+    * Review Link: TODO
+    * Quick Notes: A revisitation of the illiac suite, which was the first piece of music composed by a computer. 
+* **MusicXML: An Internet-Friendly Format for Sheet Music** 
+    * [Google Scholar Link](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=MusicXML%3A+An+internet-friendly+format+for+sheet+music&btnG=)
+    * [Content Link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.118.5431&rep=rep1&type=pdf)
+    * Review Link: TODO
+    * Quick Notes: A paper that introduces and provides and overview for the MusicXML format
 
 <!-- Template -->
 <!-- * **Title** 

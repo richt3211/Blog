@@ -1,0 +1,41 @@
+{{ partial "header" . }}
+
+<main>
+
+    <div>
+        <h2>{{ .Title }}</h2>
+        <h5>{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</h5>
+        {{ partial "tags" . }}
+    </div>
+
+    <div align="start" class="content">
+        {{ range $key, $value := .Site.Data.references }}
+            <h2>{{ $key }}</h2>
+            {{if eq (printf "%T" $value) "map[string]interface {}"}}
+                {{range $key_, $value_ := $value}}
+                    <h3>{{ $key_ }}</h3>
+                    {{if eq (printf "%T" $value_) "map[string]interface {}"}}
+                        {{ range $_key_, $_value_ := $value_ }}
+                            <h4>{{ $_key_ }}</h4>
+                            {{ range $_value_ }}
+                                {{ partial "reference.html" . }}
+                            {{ end }}
+                        {{ end }}
+                    {{ else }}
+                        {{ range $value_ }} 
+                            {{ partial "reference.html" .}}
+                        {{ end}}
+                    {{ end }}
+                {{end}}
+            {{ else }}
+                {{ range $value }} 
+                    {{ partial "reference.html" . }}
+                {{ end}}
+            {{end}}
+        {{ end }}
+    </div>
+
+
+</main>
+
+{{ partial "footer" . }}

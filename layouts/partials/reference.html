@@ -1,0 +1,19 @@
+<ul>
+    <li><strong>{{.title}}</strong></li>
+    <ul>
+        <li><a href="{{.google_scholar_link}}">Google Scholar Link</a></li>
+        <li><a href="{{.content_link}}">Content Link</a></li>
+        {{ with .quick_notes}}
+            <li>Quick Notes: {{.}}</li>
+        {{ end }}
+        {{ with .citation}}
+            <li>Citation: {{.}}</li>
+        {{ end }}
+        {{ with .review_link}} 
+            <li><a href="{{.}}">Review Link</a></li>
+        {{ end }}
+        {{ with .website_link}}
+            <li><a href="{{.}}">Website Link</a></li>
+        {{ end }}
+    </ul>
+</ul>
