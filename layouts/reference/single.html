@@ -9,6 +9,8 @@
     </div>
 
     <div align="start" class="content">
+        {{ .Content }}
+        <!-- This page is going to act as a central place for me to keep track of all the useful resources that I come across during my research. Right now I have several papers and books saved on my laptop, but it is becoming difficult to keep them organized. I am going to organize all of the references by category with links to the relevant paper, book, or article.  -->
         {{ range $key, $value := .Site.Data.references }}
             <h2>{{ $key }}</h2>
             {{if eq (printf "%T" $value) "map[string]interface {}"}}

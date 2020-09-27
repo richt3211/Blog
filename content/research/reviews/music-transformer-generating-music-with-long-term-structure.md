@@ -55,7 +55,7 @@ They use a language-modeling approach for the abstract representation of the mus
 The MAESTRO dataset is also used which comes in MIDI format. The data is represented as a series of events, given by [Oore]({{<ref "/research/reviews/this-time-with-feeling-learning-expressive-musical-performance.md">}}). 
 
 ### 3.2 Self-Attention in Transformer
-The Transformer decoder is an autoregressive model that uses primarily self-attention mechanisms, and learned sinusoidal position information. Each layers consists of a self-attention sub-layer followed by a feedforward sub-layer. See [Attention is All You Need]({{<ref "/research/resources.md#other">}})
+The Transformer decoder is an autoregressive model that uses primarily self-attention mechanisms, and learned sinusoidal position information. Each layers consists of a self-attention sub-layer followed by a feedforward sub-layer. See [Attention is All You Need]({{<ref "/research/references.md#other">}})
 
 ### 3.3 Relative Positional Self-Attention
 The transformer model relies solely on positional sinusoids to represent timing information, but a relative position position representation was introduced to allows for two positions in a sequence to inform each other based on how far apart they are. This is done by adding a relative position embedding matrix into the original attention model which has an embedding for each possible pairwise distance between a query and a key for a given position. 

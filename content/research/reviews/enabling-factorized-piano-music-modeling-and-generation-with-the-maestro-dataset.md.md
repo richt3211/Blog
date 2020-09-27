@@ -11,7 +11,7 @@ draft: false
 * To generate $P(audio) = E_notes[P(audio|notes)]$
     * 1. Encoder, $P(notes|audio)$: An [Onsets and Frames transciption model]({{<ref "/research/reviews/onsets-and-frames-dual-objective-piano-transcription.md">}})
     * 2. Prior, $P(notes)$: [A self-attention Transformer Model]({{<ref "/research/reviews/music-transformer-generating-music-with-long-term-structure.md">}})
-    * 3. Decoder, P(audio|notes): Using the [WaveNet architecture]({{<ref "/research/resources#music-synthesistranscription">}})
+    * 3. Decoder, P(audio|notes): Using the [WaveNet architecture]({{<ref "/research/references#music-synthesistranscription">}})
 * They introduce the MAESTRO dataset. 
 * One useful part of the architecture is it's modularity and the ability to switch out different models at each of the steps. 
 * Other data sets used for comparison with the MAESTRO dataset
