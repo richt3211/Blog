@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Deep learning techniques for music generation--a survey",
+        "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Deep+Learning+Techniques+for+Music+Generation+%E2%80%93+A+Survey&btnG=", 
+        "content_link": "https://arxiv.org/pdf/1709.01620.pdf",
+        "quick_notes": "This is an entire book about deep learning for music generation. I've read everything up to the network architectures section. This has been the most informative resource that I have used so far.", 
+        "citation": "Briot, J. P., Hadjeres, G., & Pachet, F. D. (2017). Deep learning techniques for music generation--a survey. arXiv preprint arXiv:1709.01620."
+    },
+    {
+        "title": "Deep Learning Book",
+        "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=deep+learning+goodfellow&btnG=", 
+        "content_link": "https://github.com/janishar/mit-deep-learning-book-pdf",
+        "quick_notes": "The famous book by goodfellow. It is dense enough that I haven't read that much of it, but think that it would be useful to look at the section on RNNs and LSTMs", 
+        "citation": "Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep learning. MIT press."
+    }
+]

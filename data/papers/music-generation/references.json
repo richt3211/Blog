@@ -1,0 +1,129 @@
+{
+    "Music Generation": {
+        "General": [
+            {
+                "title": "Deep Learning for Music Generation - Challenges and Directions",
+                "google_scholar_link": "https://scholar.google.com/scholar?q=Deep+learning+for+music+generation:+challenges+and+directions&hl=en&as_sdt=0&as_vis=1&oi=scholart",
+                "content_link": "http://www-desir.lip6.fr/~briot/cv/mg-dl-cd-final.pdf",
+                "quick_notes": "A survey of the current trends in music generation and suggestions of future work",
+                "citation": "",
+                "review_link": "/research/reviews/onsets-and-frames-dual-objective-piano-transcription/",
+                "website_link": ""
+            },
+            {
+                "title": "Enabling Factorized Piano Music Modeling and Generation with the MAESTRO Dataset",
+                "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Enabling+Factorized+Piano+Music+Modeling+and+Generation+with+the+MAESTRO+Dataset&btnG=",
+                "content_link": "https://arxiv.org/pdf/1810.12247.pdf",
+                "quick_notes": "A full audio transcription and generation process proposed by Magenta. They break the problem of generating music audio into 3 parts.",
+                "citation": "",
+                "review_link": "/research/reviews/enabling-factorized-piano-music-modeling-and-generation-with-the-maestro-dataset.md/",
+                "website_link": "https://magenta.tensorflow.org/maestro-wave2midi2wave"
+            }
+        ],
+        "Transformer": [
+            {
+                "title": "Music Transformer: Generating music with long-term structure",
+                "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Music+transformer%3A+Generating+music+with+long-term+structure&btnG=",
+                "content_link": "https://openreview.net/pdf?id=rJe4ShAcF7",
+                "quick_notes": "Magenta's(Google) take on using transformers to model long term relationships in music",
+                "citation": "",
+                "review_link": "",
+                "website_link": "https://magenta.tensorflow.org/music-transformer"
+            },
+            {
+                "title": "Music Style Transformer",
+                "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Music+Style+Transformer&btnG=",
+                "content_link": "https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/ICA7029.pdf",
+                "quick_notes": "Applying Magenta's research with a Style Transfer approach",
+                "citation": "",
+                "review_link": "/research/reviews/music-style-transformer/",
+                "website_link": ""
+            },
+            {
+                "title": "Encoding Musical Style with Transformer Autoencoders",
+                "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Encoding+Musical+Style+with+Transformer+Autoencoders&btnG=",
+                "content_link": "https://arxiv.org/pdf/1912.05537.pdf",
+                "quick_notes": "Magenta research group using an autoencoder on top of the music transformer architecture",
+                "citation": "",
+                "review_link": "",
+                "website_link": "https://magenta.tensorflow.org/transformer-autoencoder"
+            },
+            {
+                "title": "Transformer VAE: A Hierarchical Model for Structure-Aware and Interpretable Music Representation Learning",
+                "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Transformer+VAE%3A+A+Hierarchical+Model+for+Structure-Aware+and+Interpretable+Music+Representation+Learning&btnG=",
+                "content_link": "https://ieeexplore-ieee-org.ezproxy.lib.utah.edu/stamp/stamp.jsp?tp=&arnumber=9054554",
+                "quick_notes": "Another variational auto-encoder with the goal to make create more structure awareness and interpretability in the model.",
+                "citation": "",
+                "review_link": "",
+                "website_link": ""
+            },
+            {
+                "title": "LakhNES: Improving multi-instrumental music generation with cross-domain pre-training",
+                "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=LakhNES%3A+Improving+multi-instrumental+music+generation+with+cross-domain+pre-training&btnG=",
+                "content_link": "https://arxiv.org/pdf/1907.04868.pdf",
+                "quick_notes": "Using the transformer architecture for polyphonic music generation using new data from NES video games system. ",
+                "citation": "",
+                "review_link": "",
+                "website_link": ""
+            },
+            {
+                "title": "Transformer Bard: Music and Poem Generation Using Transformer Models",
+                "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Transformer+Bard%3A+Music+and+Poem+Generation+Using+Transformer+Models&btnG=",
+                "content_link": "https://creativecoding.soe.ucsc.edu/courses/cmpm202_w20/_schedule/TransformerBard_202.pdf",
+                "quick_notes": "Uses the GPT-2 Model for text generation and the Self-Attention Transformer model for music generation",
+                "citation": "",
+                "review_link": "",
+                "website_link": ""
+            },
+            {
+                "title": "Vector Quantized Contrastive Predictive Coding for Template-based Music Generation",
+                "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Vector+Quantized+Contrastive+Predictive+Coding+for+Template-based+Music+Generation&btnG=",
+                "content_link": "https://arxiv.org/pdf/2004.10120.pdf",
+                "quick_notes": "Not entirely sure what they do in the paper, need to read further. ",
+                "citation": "",
+                "review_link": "",
+                "website_link": ""
+            },
+            {
+                "title": "Infilling Piano Performances",
+                "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Infilling+Piano+Performances&btnG=",
+                "content_link": "https://nips2018creativity.github.io/doc/infilling_piano_performances.pdf",
+                "quick_notes": "Magenta group using self-attention methods to 'fill in' pieces of missing music. Useful for computer-assisted composition with HCI",
+                "citation": "",
+                "review_link": "",
+                "website_link": ""
+            }
+        ],
+        "Recurrent": [
+            {
+                "title": "This time with feeling: learning expressive musical performance",
+                "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=This+time+with+feeling%3A+learning+expressive+musical+performance&btnG=",
+                "content_link": "https://link.springer.com/article/10.1007/s00521-018-3758-9",
+                "quick_notes": "This is a paper that focuses on generating expressive performance using an LSTM network architecture. Haven't read the paper. ",
+                "citation": "Oore, S., Simon, I., Dieleman, S., Eck, D., & Simonyan, K. (2018). This time with feeling: Learning expressive musical performance. Neural Computing and Applications, 1-13.",
+                "review_link": "",
+                "website_link": ""
+            }
+        ]
+    },
+    "Music Synthesis/Transcription": [
+        {
+            "title": "Onsets and frames: Dual-objective piano transcription",
+            "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Onsets+and+Frames%3A+Dual-Objective+Piano+Transcription&btnG=",
+            "content_link": "https://arxiv.org/pdf/1710.11153.pdf",
+            "quick_notes": "Use a convolutional and recurrent neural network to create MIDI files from raw audio wav files. Done by Magenta research group",
+            "citation": "",
+            "review_link": "/research/reviews/onsets-and-frames-dual-objective-piano-transcription/",
+            "website_link": "https://magenta.tensorflow.org/onsets-frames"
+        },
+        {
+            "title": "Wavenet: A generative model for raw audio",
+            "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&as_vis=1&q=Wavenet%3A+A+generative+model+for+raw+audio&btnG=",
+            "content_link": "https://arxiv.org/pdf/1609.03499.pdf?utm_source=Sailthru&utm_medium=email&utm_campaign=Uncubed%20Entry%20%2361%20-%20April%203%2C%202019&utm_term=entry",
+            "quick_notes": "An architecture by DeepMind for generating raw wav audio. ",
+            "citation": "",
+            "review_link": "",
+            "website_link": "https://deepmind.com/blog/article/wavenet-generative-model-raw-audio"
+        }
+    ]
+}

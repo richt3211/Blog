@@ -1,0 +1,40 @@
+[
+    {
+        "title": "Toward a High Performance Piano Practice Support System for Beginners",
+        "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Toward+a+High+Performance+Piano+Practice+Support+System+for+Beginners&btnG=",
+        "content_link": "http://www.apsipa.org/proceedings/2018/pdfs/0000073.pdf",
+        "quick_notes": "This appears to be the closest application to what I want to do. The paper is difficult to read as the english doesn't make much sense in many places (due to the native language of the authors), but the overall idea is as close to what I want to do as anything else I could find.",
+        "citation": "Asahi, Shota & Tamura, Satoshi & Sugiyama, Yuko & Hayamizu, Satoru. (2018). Toward a High Performance Piano Practice Support System for Beginners. 73-79. 10.23919/APSIPA.2018.8659463.",
+        "review_link": "",
+        "website_link": ""
+    }, 
+    {
+        "title": "Detecting Pianist Hand Posture Mistakes for Virtual Piano Tutoring",
+        "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Detecting+Pianist+Hand+Posture+Mistakes+for+Virtual+Piano+Tutoring&btnG=",
+        "content_link": "https://www.researchgate.net/profile/David_Johnson143/publication/318028952_Detecting_Pianist_Hand_Posture_Mistakes_for_Virtual_Piano_Tutoring/links/596042100f7e9b8194fc1119/Detecting-Pianist-Hand-Posture-Mistakes-for-Virtual-Piano-Tutoring.pdf",
+        "quick_notes": "This is not 100% relevant to the research that I am doing but is a fascinating idea. It takes a computer vision based approach to tutoring by looking at hand position while playing. This isn't relevant to the research that I am doing but may be in the future.",
+        "citation": "Johnson, David & Dufour, Isabelle & Damian, Daniela & Tzanetakis, George. (2016). Detecting Pianist Hand Posture Mistakes for Virtual Piano Tutoring. ",
+        "review_link": "",
+        "website_link": ""
+    },
+    {
+        "title": "Computer-Assisted Musical Instrument Tutoring with Targeted Exercises",
+        "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Computer-Assisted+Musical+Instrument+Tutoring+with+Targeted+Exercises&btnG=",
+        "content_link": "http://dspace.library.uvic.ca/bitstream/handle/1828/1081/masters-percival.pdf?sequence=1&isAllowed=y",
+        "quick_notes": "This is a masters thesis and talks about computer music approaches for tutoring. It doesn't use any sophisticated deep learning models if I remember but does present some of the problems that are associated with computer based tutoring applications. I haven't read the whole paper in detail, but would like to better understand my own problem that I am trying to solve. ",
+        "citation": "Percival, G. K. (2008). Computer-assisted musical instrument tutoring with targeted exercises (Doctoral dissertation).",
+        "review_link": "",
+        "website_link": ""
+    
+    }, 
+    {
+        "title": "Score-Following-in-Practice",
+        "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Score-Following-in-Practice&btnG=",
+        "content_link": "https://www.researchgate.net/profile/Cort_Lippe/publication/301649731_Score-Following-in-Practice/links/571fadd508aefa64889a811e.pdf",
+        "quick_notes": "An older paper (1992) about score following. Not sure what the computational techniques that they use are",
+        "citation": "Puckette, M., & Lippe, C. (1992). Score following in practice. In Proceedings of the International Computer Music Conference (pp. 182-182). INTERNATIONAL COMPUTER MUSIC ACCOCIATION.",
+        "review_link": "",
+        "website_link": ""
+    
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "title": "Attention Is All You Need",
+        "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=attention+is+all+you+need&btnG=&oq=attent",
+        "content_link": "https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf",
+        "quick_notes": "The paper that introduced the transformer architecture. ",
+        "citation": "",
+        "review_link": "",
+        "website_link": ""
+    
+    }, 
+    {
+        "title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+        "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Bert%3A+Pre-training+of+deep+bidirectional+transformers+for+language+understanding&btnG=",
+        "content_link": "https://arxiv.org/pdf/1810.04805.pdf?source=post_elevate_sequence_page---------------------------",
+        "quick_notes": "The paper that introduces BERT",
+        "citation": "",
+        "review_link": "",
+        "website_link": ""
+    
+    }, 
+    {
+        "title": "Language Models are Unsupervised Multitask Learners",
+        "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Language+Models+are+Unsupervised+Multitask+Learners&btnG=",
+        "content_link": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+        "quick_notes": "The original paper that introduces GPT-2",
+        "citation": "",
+        "review_link": "",
+        "website_link": "https://openai.com/blog/better-language-models/"
+    
+    }, 
+    {
+        "title": "Neural machine translation by jointly learning to align and translate",
+        "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=NEURAL+MACHINE+TRANSLATION+BY+JOINTLY+LEARNING+TO+ALIGN+AND+TRANSLATE&btnG=",
+        "content_link": "https://arxiv.org/pdf/1409.0473",
+        "quick_notes": "The paper that introduces attention as an alternative to RNNs and LSTMs implemented as encoders-decoders",
+        "citation": "",
+        "review_link": "",
+        "website_link": ""
+    
+    }, 
+    {
+        "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+        "google_scholar_link": "https://scholar.google.com/scholar?q=ImageNet+Classification+with+Deep+Convolutional+Neural+Networks&hl=en&as_sdt=0&as_vis=1&oi=scholart",
+        "content_link": "http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf",
+        "quick_notes": "This is the paper that introduces AlexNet, the CNN that won the 2012 ImageNet competition and woke the world up to deep learning. ",
+        "citation": "",
+        "review_link": "",
+        "website_link": ""
+    
+    }, 
+    {
+        "title": "Combining Knowledge-Based and Instance-Based Learning to Exploit Qualitative Knowledge",
+        "google_scholar_link": "https://scholar.google.com/scholar?q=Combining+Knowledge-Based+and+Instance-Based+Learning+to+Exploit+Qualitative+Knowledge&hl=en&as_sdt=0&as_vis=1&oi=scholart",
+        "content_link": "file:///Users/richardtimpson/Downloads/69-60-PB.pdf",
+        "quick_notes": "Pages 371 - 385. An early custom algorithm, named IBL-SMART, developed by Widmer in application to tonal music. Used in his single note expressiveness model",
+        "citation": "",
+        "review_link": "",
+        "website_link": ""
+    
+    }, 
+    {
+        "title": "Revisiting the Illiac Suite – a rule based approach to stochastic processes",
+        "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Revisiting+the+Illiac+Suite+%E2%80%93+a+rule+based+approach+to+stochastic+processes&btnG=",
+        "content_link": "http://www.sandred.com/texts/Revisiting_the_Illiac_Suite.pdf",
+        "quick_notes": "A revisitation of the illiac suite, which was the first piece of music composed by a computer. ",
+        "citation": "",
+        "review_link": "",
+        "website_link": ""
+    
+    }, 
+    {
+        "title": "MusicXML: An Internet-Friendly Format for Sheet Music",
+        "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=MusicXML%3A+An+internet-friendly+format+for+sheet+music&btnG=",
+        "content_link": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.118.5431&rep=rep1&type=pdf",
+        "quick_notes": "A paper that introduces and provides and overview for the MusicXML format",
+        "citation": "",
+        "review_link": "",
+        "website_link": ""
+    
+    }
+]

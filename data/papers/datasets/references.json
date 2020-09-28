@@ -1,0 +1,20 @@
+[
+    {
+        "title": "THE MAGALOFF CORPUS:AN EMPIRICAL ERROR STUDY",
+        "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=THE+MAGALOFF+CORPUS%3A+AN+EMPIRICAL+ERROR+STUDY&btnG=",
+        "content_link": "http://depts.washington.edu/icmpc11/ICMPC11/PDF/AUTHOR/MP100017.PDF",
+        "quick_notes": "",
+        "citation": "",
+        "review_link": "",
+        "website_link": ""
+    },
+    {
+        "title": "LEARNING FEATURES OF MUSIC FROM SCRATCH: MusicNET",
+        "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=LEARNING+FEATURES+OF+MUSIC+FROM+SCRATCH&btnG=",
+        "content_link": "https://arxiv.org/pdf/1611.09827.pdf",
+        "quick_notes": "A dataset with raw audio and corresponding labels for note timing and instruments. ",
+        "citation": "",
+        "review_link": "",
+        "website_link": ""
+    }
+]

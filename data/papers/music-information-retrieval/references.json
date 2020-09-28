@@ -1,0 +1,187 @@
+{
+    "General" : [
+        {
+            "title": "Music Information Retrieval",
+            "google_scholar_link": "https://scholar.google.com/scholar?q=music+information+retrieval&hl=en&as_sdt=0&as_vis=1&oi=scholart",
+            "content_link": "http://www.music.mcgill.ca/~ich/classes/mumt611_06/downie_mir_arist37.pdf",
+            "quick_notes": "A general introduction and overview of MIR",
+            "citation": "",
+            "review_link": "",
+            "website_link": ""
+        
+        }, 
+        {
+            "title": "Getting Closer to the Essence of Music:The Con Espressione Manifesto",
+            "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Getting+Closer+to+the+Essence+of+Music%3AThe+Con+Espressione+Manifesto&btnG=",
+            "content_link": "https://arxiv.org/pdf/1611.09733.pdf",
+            "quick_notes": "Widmer has been doing research on artificially intelligent computer music based systems for a long time. He has some other papers that I have read through and will probably link here. This is one of his most recent and serves as a sort of encouragment and challenge to the rest of the computer music community and what he thinks the relevant issues and areas of research are worth exploring. If I remember correctly, one of the emphasis he makes is on deep learning and ANN's. ",
+            "citation": "Widmer, Gerhard. “Getting Closer to the Essence of Music.” ACM Transactions on Intelligent Systems and Technology 8.2 (2017): 1–13. Crossref. Web.",
+            "review_link": "",
+            "website_link": ""
+        
+        }, 
+        {
+            "title": "THE WEKINATOR: A SYSTEM FOR REAL-TIME,INTERACTIVE MACHINE LEARNING IN MUSIC",
+            "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=THE+WEKINATOR%3A+A+SYSTEM+FOR+REAL-TIME%2C+INTERACTIVE+MACHINE+LEARNING+IN+MUSIC&btnG=",
+            "content_link": "https://www.researchgate.net/profile/Perry_Cook3/publication/228719072_The_Wekinator_A_System_for_Real-time_Interactive_Machine_Learning_in_Music/links/00b4953b6fd9d98644000000.pdf",
+            "quick_notes": "This is a general system for live MIR statistics on musical performance. I'm not sure if it has been used for any specific application. ",
+            "citation": "Fiebrink, R., & Cook, P. R. (2010, August). The Wekinator: a system for real-time, interactive machine learning in music. In Proceedings of The Eleventh International Society for Music Information Retrieval Conference (ISMIR 2010)(Utrecht).",
+            "review_link": "",
+            "website_link": ""
+        
+        }, 
+        {
+            "title": "Optical Music Recognition with convolutional sequence-to-sequence models",
+            "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=OPTICAL+MUSIC+RECOGNITION+WITH+CONVOLUTIONAL+SEQUENCE-TO-SEQUENCE+MODELS&btnG=",
+            "content_link": "https://arxiv.org/pdf/1707.04877.pdf",
+            "quick_notes": "OMR is taking an image of a score and producing a digital representation of the score. They use a convolutional model and MusicXML (with MuseScore) to accomplish this. ",
+            "citation": "",
+            "review_link": "",
+            "website_link": ""
+        
+        }
+    ],
+    "Music Analysis and Expressivness": {
+        "General": [
+            {
+                "title": "Computational Models of Expressive Music Performance: A Comprehensive and Critical Review",
+                "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Computational+Models+of+Expressive+Music+Performance%3A+A+Comprehensive+and+Critical+Review&btnG=",
+                "content_link": "https://www.frontiersin.org/articles/10.3389/fdigh.2018.00025/full",
+                "quick_notes": "A comprehensive review of music analysis and expressive performance. ",
+                "citation": "",
+                "review_link": "",
+                "website_link": ""
+            },
+            {
+                "title": "An Assessment of Learned Score Features for Modeling Expressive Dynamics in Music",
+                "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=An+Assessment+of+Learned+Score+Features+for+Modeling+Expressive+Dynamics+in+Music&btnG=",
+                "content_link": "https://ieeexplore-ieee-org.ezproxy.lib.utah.edu/stamp/stamp.jsp?tp=&arnumber=6762927",
+                "quick_notes": "Paper about using unsupervised learning to learn score features. ",
+                "citation": "",
+                "review_link": "{{<ref \"research/reviews/an-assessment-of-learned-score-features-for-modeling-expressive-dynamics-in-music.md\">}}",
+                "website_link": ""
+            },
+            {
+                "title": "Linear basis models for prediction and analysis of musical expression",
+                "google_scholar_link": "https://scholar.google.com/scholar_lookup?author=M.+Grachten&author=G.+Widmer+&publication_year=2012&title=Linear+basis+models+for+prediction+and+analysis+of+musical+expression&journal=J.+New+Music+Res.&volume=41&pages=311-322",
+                "content_link": "http://www.cp.jku.at/research/papers/Grachten_Widmer-JNMR-LBM-preprint.pdf",
+                "quick_notes": "Introduction to the linear basis model using simple linear regression. ",
+                "citation": "",
+                "review_link": "",
+                "website_link": ""
+            },
+            {
+                "title": "The Basis Mixer: A Computation Romantic Pianist",
+                "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=The+basis+mixer%3A+a+computational+romantic+pianist&btnG=",
+                "content_link": "https://s18798.pcdn.co/ismir2016/wp-content/uploads/sites/2294/2016/08/cancino-basis.pdf",
+                "quick_notes": "An extension of the basis model using an RNN. ",
+                "citation": "",
+                "review_link": "",
+                "website_link": ""
+            },
+            {
+                "title": "YQX Plays Chopin",
+                "google_scholar_link": "https://scholar.google.com/scholar_lookup?author=G.+Widmer&author=S.+Flossmann&author=M.+Grachten+&publication_year=2009&title=YQX+plays+chopin&journal=AI+Mag.&volume=30&pages=35-48",
+                "content_link": "https://www.aaai.org/ojs/index.php/aimagazine/article/view/2249/2099",
+                "quick_notes": "The YQX expressive performance rendering system, which was one piano competitions for expressive performance in 2008. The system uses a Bayesian probability network.",
+                "citation": "",
+                "review_link": "",
+                "website_link": ""
+            },
+            {
+                "title": "E-LEARNING SOFTWARE FOR IMPROVING STUDENT'S MUSIC PERFORMANCE USING COMPARISONS",
+                "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=E-LEARNING+SOFTWARE+FOR+IMPROVING+STUDENT%27S+MUSIC+PERFORMANCE+USING+COMPARISONS&btnG=",
+                "content_link": "https://files.eric.ed.gov/fulltext/ED562302.pdf",
+                "quick_notes": "This approach analyzes expresiveness by comparing a student piece to a professional. I have read into the paper too much but it is definitely worth looking into. I would probably try to do something similar for my application",
+                "citation": "",
+                "review_link": "",
+                "website_link": ""
+            },
+            {
+                "title": "Expressive Collaborative Music Performance via Machine Learning",
+                "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Expressive+Collaborative+Music+Performance+via+Machine+Learning&btnG=",
+                "content_link": "http://reports-archive.adm.cs.cmu.edu/anon/anon/ml2016/CMU-ML-16-103.pdf",
+                "quick_notes": "This is a PhD Thesis which explores music performance from a computation perspective. There is quite a bit about musical representation, and he even touches on using computer vision to assist in HCI tools for music performance. The thesis is long, but has a substantial amount of good content",
+                "citation": "Xia, G. (2016). Expressive Collaborative Music Performance via Machine Learning.",
+                "review_link": "",
+                "website_link": ""
+            },
+            {
+                "title": "A Phylogenetic Approach to Music Performance Analysis",
+                "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=A+Phylogenetic+Approach+to+Music+Performance+Analysis&btnG=",
+                "content_link": "http://www.cs.utexas.edu/users/eladlieb/paper.pdf",
+                "quick_notes": "Provides an alternative approach to music expressiveness. Focuses on violin as opposed to piano",
+                "citation": "Liebman, Elad & Ornoy, Eitan & Chor, Benny. (2012). A Phylogenetic Approach to Music Performance Analysis. Journal of New Music Research. 41. 195-222. 10.1080/09298215.2012.668194. ",
+                "review_link": "",
+                "website_link": ""
+            },
+            {
+                "title": "A survey of computer systems for expressive music performance",
+                "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=A+survey+of+computer+systems+for+expressive+music+performance&btnG=",
+                "content_link": "https://www.cs.ucf.edu/~dcm/Teaching/COT4810-Spring2011/Literature/ComputerSystemsForMusic.pdf",
+                "quick_notes": "This is an older paper and forms much of the basis for expressive music performance analysis from a computational perspective. ",
+                "citation": "Alexis Kirke and Eduardo Reck Miranda. 2009. A survey of computer systems for expressive music performance. ACM Comput. Surv. 42, 1, Article 3 (December 2009), 41 pages. DOI:https://doi.org/10.1145/1592451.1592454",
+                "review_link": "",
+                "website_link": ""
+            },
+            {
+                "title": "Modeling the Rational Basis of Musical Expression",
+                "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Modeling+the+Rational+Basis+of+Musical+Expression&btnG=",
+                "content_link": "https://www-jstor-org.ezproxy.lib.utah.edu/stable/pdf/3680601.pdf?ab_segments=0%2Fbasic_SYC-5187%2Fcontrol&refreqid=search%3A6b2d90946ee5b224cb0eb07d430fe170",
+                "quick_notes": "An early paper by widmer that describes a detailed model for his individual note level expressiveness model",
+                "citation": "",
+                "review_link": "",
+                "website_link": ""
+            },
+            {
+                "title": "On the Potential of Machine Learning for Music Research",
+                "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=On+the+Potential+of+Machine+Learning+for+Music+Research&btnG=",
+                "content_link": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.45.874&rep=rep1&type=pdf",
+                "quick_notes": "This is an older paper by widmer where he introduces the idea of using machine learning for music research. I have read a good amount of the paper but need to go back through it to see what the exact algorithms and representation he is using. ",
+                "citation": "Widmer, G. (2013). On the potential of machine learning for music research. In Readings in Music and Artificial Intelligence (pp. 79-94). Routledge.",
+                "review_link": "",
+                "website_link": ""
+            },
+            {
+                "title": "Overview of the KTH rule system for musical performance",
+                "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=Overview+of+the+KTH+rule+system+for+musical+performance&btnG=",
+                "content_link": "http://ac-psych.org/en/download-pdf/page/20/volume/2/issue/2/id/15",
+                "quick_notes": "This is a popular paper by Friberg that discusses his KTH system for analyzing music expresiveness that he has been developing since the 80's. This doesn't use any sort of data driven approach but uses a set of hardcoded rules that are fine tuned by human feedback to define what expresiveness is. ",
+                "citation": "Friberg, A., Bresin, R., & Sundberg, J. (2006). Overview of the KTH rule system for musical performance. Advances in cognitive psychology, 2(2-3), 145-161.",
+                "review_link": "",
+                "website_link": ""
+            }
+        ],
+        "virtuosoNet": [
+            {
+                "title": "A Hierarchical RNN-based System for Modeling Expressive Piano Performances",
+                "google_scholar_link": "https://scholar.google.com/scholar?q=A+Hierarchical+RNN-based+System+for+Modeling+Expressive+Piano+Performances&hl=en&as_sdt=0&as_vis=1&oi=scholart",
+                "content_link": "http://archives.ismir.net/ismir2019/paper/000112.pdf",
+                "quick_notes": "Uses a hierarchical RNN to build an expressive piano player. Will be the basis for most of the thesis. This is a very similar paper to the one below, but gives more of a broad overview of the entire system as opposed to specific details about the network architecture and feature represetation",
+                "citation": "",
+                "review_link": "",
+                "website_link": ""
+            },
+            {
+                "title": "VirtuosoNet: A Hierarchical Attention RNN for Generating Expressive Piano Performance from Music Score",
+                "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=VirtuosoNet%3A+A+Hierarchical+Attention+RNN+for+Generating+Expressive+Piano+Performance+from+Music+Score&btnG=",
+                "content_link": "https://nips2018creativity.github.io/doc/virtuosonet.pdf",
+                "quick_notes": "This is a related paper to the one above, but provides more specific details about the HAN and the feature representation",
+                "citation": "",
+                "review_link": "",
+                "website_link": ""
+            }
+        ],
+        "Transformer": [
+            {
+                "title": "A BI-DIRECTIONAL TRANSFORMER FOR MUSICAL CHORD RECOGNITION",
+                "google_scholar_link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=A+BI-DIRECTIONAL+TRANSFORMER+FOR+MUSICAL+CHORD+RECOGNITION&btnG=",
+                "content_link": "https://arxiv.org/pdf/1907.02698.pdf",
+                "quick_notes": "Uses the self-attention technique for chord recognition and provides an accompanying visualization",
+                "citation": "",
+                "review_link": "",
+                "website_link": ""
+            }
+        ]
+    }
+}
